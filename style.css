@@ -1,0 +1,77 @@
+.wrapper {
+    max-width:  500px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 black;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+
+    input, button {
+        padding: 8px;
+    }
+
+    p {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        border: 1px solid gray;
+        transition: all 0.5s;
+        margin-top: 30px;
+        padding: 10px;
+
+        &:hover {
+            background-color: lightgray;
+        }
+    }
+    backdrop-filter: blur(15px);
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+h2 {
+    text-align: center;
+}
+
+body {
+    background-image: url(https://upload.wikimedia.org/wikipedia/ru/1/19/Kraken_logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100dvh;
+}
+.box {
+background-color: #fff;
+display: flex;
+flex-direction: column;
+gap: 5px;
+
+padding: 10px;
+border: 1px solid gray;
+height: 250px;
+overflow-y: scroll;
+overflow-x: hidden;
+margin-top: 30px;
+
+&::-webkit-scrollbar {
+    width: 5px;
+}
+&::-webkit-scrollbar-track {
+    background-color: green;
+}
+&::-webkit-scrollbar-thumb {
+    background-color: blue;
+}
+&:hover {
+    background-color: #fff;
+}
+
+}
+
+p {
+    padding: 8px;
+}
